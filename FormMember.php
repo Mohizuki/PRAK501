@@ -56,7 +56,7 @@ if (isset($_GET['id_member'])) {
 
                 </td>
                 <td>
-                <input type="date" name="tgl_daftar" <?php echo (isset($_GET['id_member'])) ?  "value = " . $result[0]["tgl_mendaftar"] . "" : "value = '' "; ?> required> <br>
+                <input type="datetime-local" name="tgl_daftar" <?php echo (isset($_GET['id_member'])) ?  "value = " . $result[0]["tgl_mendaftar"] . "" : "value = '' "; ?> required> <br>
                 </td>
             </tr>
             <tr>
